@@ -45,7 +45,7 @@ const Intro = ({ image, title, buttons }: BaseBlock & { gif: BaseBlock['image'] 
                     </Button>
                   ))}
                 </Grid>
-                <div className={css.downloads}>
+                {/* <div className={css.downloads}>
                   <Grid item>
                     <a href={IOS_LINK} target="_blank" rel="noreferrer" aria-label="AppStore download">
                       <IOSDownload />
@@ -56,7 +56,7 @@ const Intro = ({ image, title, buttons }: BaseBlock & { gif: BaseBlock['image'] 
                       <GPlayDownload />
                     </a>
                   </Grid>
-                </div>
+                </div> */}
               </Grid>
             </Grid>
           </Grid>

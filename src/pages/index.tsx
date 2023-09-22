@@ -1,10 +1,10 @@
 import type { InferGetStaticPropsType, NextPage } from 'next'
 import { loadChainsData } from '@/lib/loadChainsData'
-import { Home } from '@/components/Home'
+import { Wallet } from '@/components/Wallet'
 import { fetchTotalAssets, fetchTotalSafesDeployed, fetchTotalTransactions } from '@/hooks/useSafeStats'
 
 const IndexPage: NextPage<InferGetStaticPropsType<typeof getStaticProps>> = (props) => {
-  return <Home {...props} />
+  return <Wallet {...props} />
 }
 
 export async function getStaticProps() {
