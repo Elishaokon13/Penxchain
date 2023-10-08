@@ -1,7 +1,6 @@
 import { useState } from 'react'
 import { Badge, Button, ButtonBase } from '@mui/material'
 import Link from 'next/link'
-
 import { AppRoutes } from '@/config/routes'
 import Logo from '@/public/images/logo.svg'
 import { SAFECON_LINK, WALLET_LINK } from '@/config/constants'
@@ -9,7 +8,6 @@ import { useOpenPositions } from '@/hooks/useOpenPositions'
 import css from './styles.module.css'
 import clsx from 'clsx'
 import { useRouter } from 'next/router'
-import ArrowIcon from '@/public/images/arrow-out-square-corner.svg'
 
 const navItems = [
   {
@@ -32,17 +30,11 @@ const navItems = [
     label: 'Team',
     href: AppRoutes.careers,
   },
-   {
-     
-      //  <div className={css.externalLink}>
-      //    Safe
-      //    <u>CON</u>
-      //    <ArrowIcon />
-      //  </div>
-    
-     href: SAFECON_LINK,
-     external: true,
- },
+  {
+    label: 'Contact Us',
+    href: SAFECON_LINK,
+    external: true,
+  },
 ]
 
 const externalLinkAttrs = {

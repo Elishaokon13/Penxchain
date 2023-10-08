@@ -1,8 +1,5 @@
 import type { ReactElement } from 'react'
 import { Button, Container, Divider, Grid, Typography } from '@mui/material'
-import { IOS_LINK, GPLAY_LINK } from '@/config/constants'
-import IOSDownload from '@/public/images/ios-download.svg'
-import GPlayDownload from '@/public/images/google-play-download.svg'
 import type { BaseBlock } from '@/components/Home/types'
 import css from './styles.module.css'
 import HeaderParticles from '@/public/images/header_particles.svg'
