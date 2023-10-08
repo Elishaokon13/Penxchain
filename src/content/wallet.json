@@ -1,18 +1,18 @@
 [
   {
-    "pageTitle": "Safe Wallet",
+    "pageTitle": "Penxchain",
     "description": "Self-custodial multisig wallet for the Ethereum ecosystem",
     "component": "common/MetaTags"
   },
   {
     "image": {
-      "src": "/images/Wallet/clients.png",
+      "src": "/images/Wallet/penxchain.png",
       "alt": "Web and mobile clients"
     },
-    "title": "The most secure way to own assets",
+    "title": "Managing crypto assets, enhancing Defi",
     "buttons": [
       {
-        "text": "Launch wallet",
+        "text": "Launch App<br>",
         "href": "https://app.safe.global"
       }
     ],
@@ -20,7 +20,7 @@
   },
   {
     "variant": "3-columns",
-    "title": "Your keys. Your coins",
+    "title": "Why Penxchain?",
     "items": [
       {
         "image": {
@@ -232,7 +232,10 @@
       },
       {
         "label": "Allow push notifications",
-        "description": ["Track movement of your assets and transactions", "Get alerts"],
+        "description": [
+          "Track movement of your assets and transactions",
+          "Get alerts"
+        ],
         "state": "active"
       },
       {

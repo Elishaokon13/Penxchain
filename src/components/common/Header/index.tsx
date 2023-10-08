@@ -17,32 +17,32 @@ const navItems = [
     href: AppRoutes.index,
   },
   {
-    label: 'Core',
+    label: 'About',
     href: AppRoutes.core,
   },
   {
-    label: 'Wallet',
+    label: 'Tokenomics',
     href: AppRoutes.wallet,
   },
   {
-    label: 'Ecosystem',
+    label: 'Roadmap',
     href: AppRoutes.ecosystem,
   },
   {
-    label: 'Careers',
+    label: 'Team',
     href: AppRoutes.careers,
   },
-  {
-    label: (
-      <div className={css.externalLink}>
-        Safe
-        <u>CON</u>
-        <ArrowIcon />
-      </div>
-    ),
-    href: SAFECON_LINK,
-    external: true,
-  },
+   {
+     
+      //  <div className={css.externalLink}>
+      //    Safe
+      //    <u>CON</u>
+      //    <ArrowIcon />
+      //  </div>
+    
+     href: SAFECON_LINK,
+     external: true,
+ },
 ]
 
 const externalLinkAttrs = {
@@ -109,7 +109,7 @@ const Header = () => {
               rel="noopener noreferrer"
               variant="contained"
             >
-              Launch Wallet
+              Launch App
             </Button>
           </li>
         </ul>
